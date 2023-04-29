@@ -1,8 +1,8 @@
 <?php 
-$server = 'containers-us-west-9.railway.app';
+$server = 'localhost';
 $user = 'root';
-$pass = 'uUp4KnwvfZyI5mg21sFO';
-$dataBase = 'railway';
+$pass = '';
+$dataBase = 'agenda2';
 
 $mysqli = mysqli_connect($server, $user, $pass, $dataBase) or die(mysqli_connect_error());
 ?>
